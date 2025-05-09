@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMC-Físico" directorySegmentName="seg_0" id="DEF18F8D-4233-E305-F078-FADE6912001C">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-04 00:32:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BDE3391C-A816-32AB-8AA7-B39D1323FE39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>280F25D2-B644-4C90-07BE-0407CE63CE4B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

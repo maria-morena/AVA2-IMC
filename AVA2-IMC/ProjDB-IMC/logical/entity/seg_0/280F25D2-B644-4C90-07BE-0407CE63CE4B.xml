@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="280F25D2-B644-4C90-07BE-0407CE63CE4B" name="Cliente">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:04:53 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>cliente</shortName>
+<synonym>cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="B07AF5BE-63A2-FC28-166E-58CDAD763FC8">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:05:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="065444AF-17DB-647B-FFFD-9BF6EC01E5A4">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:06:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="77CD5CAE-1685-6631-EF97-43121075550F">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:06:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="71018F39-113B-85D1-3583-E30FA47CC458">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:06:51 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="1D680BF0-9A06-328D-1696-2C8045714744">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:06:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="9FD8475B-12AB-CBC9-78AF-22DADD2782C5">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:07:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="937AC059-2B26-9CFE-8BA6-FA798E80A890">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-04 00:22:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

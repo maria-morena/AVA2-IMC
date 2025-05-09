@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDE3391C-A816-32AB-8AA7-B39D1323FE39" name="RegistroIMC">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:07:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>IMC</shortName>
+<synonym>IMC</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCliente" id="2F8399B9-B90F-85C4-828E-EC0B6C28730E">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:10:50 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="1268015C-FD8B-D44E-B3CF-D2A1C912467C">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:11:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="EDF33995-878A-A4BE-DD6C-D0E220FC79D9">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:11:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calculoMassa" id="691F0B74-B16C-A353-A57A-EE42FF0A853E">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:11:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="classificacao" id="E448EBA2-A6CD-B780-BBB6-0AC3919EF476">
+<createdBy>maria.morena</createdBy>
+<createdTime>2025-04-03 23:12:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="CEBABD05-470A-3BFD-3FB0-1E594D51D51B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
